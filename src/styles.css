@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  background-color: gray;
+  color: blue;
+  display: flex;
+  justify-content: end;
+  height: 44px;
+}
+.menu :hover{
+  color: orange;
+  background-color: darkcyan;
+}
